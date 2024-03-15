@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -45,8 +49,8 @@
                             <p>Vestibulum ut placerat nisl. Cras sed purus tellus. Pellentesque habitant morbi tristique
                                 senectus et netus et malesuada fames ac turpis egestas. Duis posuere nisi sit amet neque
                                 finibus vestibulum. Vivamus at leo ut turpis posuere molestie. Nullam at turpis nec
-                                metus pharetra bibendum. Vivamus id urna et leo blandit consequat. <a href="#">Continue
-                                    Reading →</a></p>
+                                metus pharetra bibendum. Vivamus id urna et leo blandit consequat.</p>
+                            <a href="#">Continue Reading →</a>
                         </div>
                     </div>
                     <div class="post">
@@ -102,14 +106,17 @@
         </div>
         <div class="stories">
             <div class="stories-container">
-                <h2>Featured Stories</h2>
-                <p>Did you read our personal favorites?</p>
+                <div class="stories-header">
+                    <h2>Featured Stories</h2>
+                    <p>Did you read our personal favorites?</p>
+                </div>
+
 
                 <div class="stories-box">
 
                     <div class="story">
                         <div class="story-img">
-                            <img src="img/story1.png" alt="story poster">
+                            <img class="story-pic" src="img/story1.png" alt="story poster">
                             <div class="story-user">
                                 <img src="img/user1.png" alt="user photo">
                                 <div class="story-user-info">
@@ -126,7 +133,7 @@
 
                     <div class="story">
                         <div class="story-img">
-                            <img src="img/story2.png" alt="story poster">
+                            <img class="story-pic" src="img/story2.png" alt="story poster">
                             <div class="story-user">
                                 <img src="img/user2.png" alt="user photo">
                                 <div class="story-user-info">
@@ -143,7 +150,7 @@
 
                     <div class="story">
                         <div class="story-img">
-                            <img src="img/story3.png" alt="stoty poster">
+                            <img class="story-pic" src="img/story3.jpeg" alt="stoty poster">
                             <div class="story-user">
                                 <img src="img/user1.png" alt="user photo">
                                 <div class="story-user-info">
@@ -161,12 +168,12 @@
 
                 </div>
 
-                <p>Want to read all of our stories? <a href="#">Read the full blog</a></p>
+                <p class="stories-more">Want to read all of our stories? <a href="#">Read the full blog</a></p>
             </div>
         </div>
         <div class="footer">
             <div class="container">
-                <p>Copyright © Explorer - Images used for demonstration purpose only (<a href="#">Licenses</a>)</p>
+                <p class="copyright">Copyright © Explorer - Images used for demonstration purpose only (<a href="#">Licenses</a>)</p>
                 <p>Copyright © <a href="#">Studio Corvus</a> Powered by <a href="#">Webflow</a></p>
             </div>
         </div>

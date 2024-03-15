@@ -1,0 +1,302 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.stories-container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.main {
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 99px;
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    padding: 60px 0 52px 0;
+}
+
+.menu {
+    padding-bottom: 74px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.poster {
+    position: relative;
+    background-color: #fff;
+}
+
+.info {
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+}
+
+.travel-user {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.travel-user img {
+    border-radius: 4px;
+}
+
+.travel-user-info .username {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;  
+    line-height: 19px;
+}
+
+.travel-user-info .date {
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0%;
+    max-width: 470px;
+}
+
+.text {
+    background-color: #fff;
+    padding: 36px 76px 44px 60px;
+}
+
+.text p {
+    color: rgb(51, 51, 51);
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.text a {
+    color: rgb(141, 79, 219);
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.more {
+    padding: 49px 0 60px;
+    text-align: center;
+    background: rgb(241, 241, 241);
+}
+
+.more h2 {
+    color: rgb(51, 51, 51);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 21px;
+}
+
+.more a {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: rgb(141, 79, 219);
+    border-radius: 3px;
+    padding: 16px 25px 16px;
+}
+
+.stories {
+    padding: 85px 0 90px;
+}
+
+.stories-header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.stories-header h2 {
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+
+.stories-header p {
+    color: rgb(169, 175, 179);
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.stories-box {
+    display: flex;
+    gap: 20px;
+    text-align-last: left;
+    margin-bottom: 56px;
+}
+
+.story-img {
+    position: relative;
+    margin-bottom: 23px;
+}
+
+.story {
+    flex-basis: 300px;
+}
+
+.story-user {
+    position: absolute;
+    bottom: 0;
+    bottom: 24px;
+    left: 24px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.story-user .username {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.story-user .date {
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.story-text {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.stories-more {
+    text-align: center;
+}
+
+.stories-more p {
+    color: rgb(51, 51, 51);
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.stories-more a {
+    color:rgb(141, 79, 219);
+}
+
+.footer {
+    background: rgb(0, 0, 0);
+    color: rgb(139, 139, 139);
+    padding: 55px 0 45px;
+    text-align: center;
+}
+
+.copyright {
+    margin-bottom: 30px;
+}
+
+.footer a {
+    color: rgb(141, 79, 219);
+}
+
+
+
+
