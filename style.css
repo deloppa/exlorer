@@ -62,11 +62,13 @@ a {
 .container {
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .stories-container {
     max-width: 940px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .main {
@@ -109,6 +111,7 @@ a {
 }
 
 .info {
+    padding-right: 15px;
     position: absolute;
     bottom: 40px;
     left: 60px;
@@ -306,4 +309,84 @@ a {
 
 
 
+
+@media(max-width: 525px) {
+    .travel-user {
+        display: none;
+    }
+
+    .info {
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .poster .title {
+        font-size: 20px;
+    }
+
+    .text {
+        padding: 20px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+
+    .text button{
+        font-size: 16px;
+    }
+
+    .stories-header h2 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    
+    .stories-header p {
+        font-size: 18px;
+    }
+}
+
+
+
+@media(max-width: 650px) {
+    .stories-box {
+        display: block;
+    }
+
+    .story {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .story-img {
+        margin-bottom: 10px;
+    }
+
+    .story-pic {
+        width: 100%;
+    }
+
+    .stories-more {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 750px) {
+    .story-user {
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .story-user .username {
+        font-size: 12px;
+    }
+    
+    .story-user .date {
+        font-size: 11px;
+    }
+    
+    .story-text {
+        font-size: 16px;
+    }
+}
 
