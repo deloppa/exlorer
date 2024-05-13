@@ -63,6 +63,7 @@ a {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 15px;
+    z-index: 1;
 }
 
 .stories-container {
@@ -72,11 +73,14 @@ a {
 }
 
 .main {
-    background-image: url(img/background.png);
+    /* background-image: url(img/background.png); */
+    background: url(img/background.png) rgba(0, 0, 0, 0.488);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 99px;
+    background-blend-mode: multiply;
 }
+
 
 .header {
     text-align: center;
