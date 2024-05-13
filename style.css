@@ -313,6 +313,12 @@ a {
 
 
 
+.mobile-menu {
+    display: none;
+    font-size: 25px;
+    color:#fff;
+}
+
 
 @media(max-width: 525px) {
     .travel-user {
@@ -394,3 +400,38 @@ a {
     }
 }
 
+@media(max-width: 600px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        background-color: #000000cd;
+        width: 100%;
+        position: absolute;
+        top: 120px;
+        left: 0;
+        z-index: 2;
+        padding: 20px 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .active {
+        display: block;
+    }
+}
